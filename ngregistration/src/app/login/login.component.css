@@ -1,0 +1,9 @@
+#cont{
+    color:black;
+    margin: 0 auto;
+    overflow: hidden;
+    align-items: center;
+
+    display: flex;
+    float: none;
+}

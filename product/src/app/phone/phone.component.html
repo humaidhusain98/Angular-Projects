@@ -1,0 +1,29 @@
+<br>
+<br>
+<br>
+<br>
+<div class="container">
+<form class="form-signin">
+  <img class="mb-4" src="/docs/4.5/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+  <h1 class="h3 mb-3 font-weight-normal">Phone Authentication<i class="fas fa-parking-circle-slash    "></i></h1>
+  <div id="recaptcha-container"></div>
+  <label for="inputEmail" class="sr-only"></label>
+  <input [(ngModel)]="phoneNumber" name="email" type="email" id="inputEmail" class="form-control" placeholder="Enter Phone Number" required="" autofocus="">
+  <br>
+  
+  <button class="btn btn-lg btn-primary btn-block" type="submit" (click)="sendOTP()" [disabled]="phoneNumber.length<=10 || disableOTPButton ">Generate OTP</button>
+  <br>
+  <br>
+  <label for="inputPassword" class="sr-only">otp</label>
+  <input [(ngModel)]="otp"  name="otp" type="text"  id="inputPassword" class="form-control" placeholder="Enter OTP" required="">
+  <br>
+  <br>
+  <button (click)="verifyOTP()" class="btn btn-lg btn-primary btn-block" type="submit">Verify</button>
+
+  <button (click)="goback()" class="btn btn-lg btn-primary btn-block" type="submit">Cancel</button>
+  
+  
+  <br>
+ 
+</form>
+</div>

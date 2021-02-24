@@ -1,0 +1,13 @@
+
+<form>
+    <label for="username">Username:</label><br>
+    <input  type="text" [(ngModel)]="em" id="username" name="username"><br>
+    <label for="pwd">Password:</label><br>
+    <input type="password" [(ngModel)]="pass" id="pwd" name="pwd">
+    <br>
+    <button (click)="onSignInButtonClick(em,pass)" type="submit">Log In</button>
+  </form>
+
+
+  <button (click)=gotoreg()>Go to Registration</button>
+<br>

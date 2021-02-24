@@ -1,0 +1,18 @@
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 50px;
+  width: 50px;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  color:black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  color:black;
+}

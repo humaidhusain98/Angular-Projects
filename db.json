@@ -1,0 +1,399 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Rubik's Cube",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "imageUrl": "https://rukminim1.flixcart.com/image/352/352/puzzle/h/w/b/toyzy-2-magic-square-cube-original-imadyg5qrfzdfjx7.jpeg?q=70",
+      "price": 299
+    },
+    {
+      "id": 2,
+      "name": "Toy",
+      "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/5191g4lv0OL._SY355_.jpg",
+      "price": 199
+    },
+    {
+      "id": 3,
+      "name": "Batman Action Figure",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41ghpxFRVLL._SY355_.jpg",
+      "price": 999
+    },
+    {
+      "id": 4,
+      "name": "Superman Action Figure",
+      "description": "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a ",
+      "imageUrl": "https://images-eu.ssl-images-amazon.com/images/I/414ZdrXU71L._SY300_QL70_ML2_.jpg",
+      "price": 799
+    },
+    {
+      "id": 5,
+      "name": "Wolverine Action Figure",
+      "description": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/61OULOGt5oL._SY550_.jpg",
+      "price": 899
+    }
+  ],
+  "wishlist": [],
+  "cart": [
+    {
+      "product": {
+        "id": 1,
+        "name": "Rubik's Cube",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        "imageUrl": "https://rukminim1.flixcart.com/image/352/352/puzzle/h/w/b/toyzy-2-magic-square-cube-original-imadyg5qrfzdfjx7.jpeg?q=70",
+        "price": 299
+      },
+      "id": 1
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Rubik's Cube",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        "imageUrl": "https://rukminim1.flixcart.com/image/352/352/puzzle/h/w/b/toyzy-2-magic-square-cube-original-imadyg5qrfzdfjx7.jpeg?q=70",
+        "price": 299
+      },
+      "id": 2
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Rubik's Cube",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        "imageUrl": "https://rukminim1.flixcart.com/image/352/352/puzzle/h/w/b/toyzy-2-magic-square-cube-original-imadyg5qrfzdfjx7.jpeg?q=70",
+        "price": 299
+      },
+      "id": 3
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Rubik's Cube",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        "imageUrl": "https://rukminim1.flixcart.com/image/352/352/puzzle/h/w/b/toyzy-2-magic-square-cube-original-imadyg5qrfzdfjx7.jpeg?q=70",
+        "price": 299
+      },
+      "id": 4
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Rubik's Cube",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        "imageUrl": "https://rukminim1.flixcart.com/image/352/352/puzzle/h/w/b/toyzy-2-magic-square-cube-original-imadyg5qrfzdfjx7.jpeg?q=70",
+        "price": 299
+      },
+      "id": 5
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Toy",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/5191g4lv0OL._SY355_.jpg",
+        "price": 199
+      },
+      "id": 6
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "Batman Action Figure",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41ghpxFRVLL._SY355_.jpg",
+        "price": 999
+      },
+      "id": 7
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "Batman Action Figure",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41ghpxFRVLL._SY355_.jpg",
+        "price": 999
+      },
+      "id": 8
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "Batman Action Figure",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41ghpxFRVLL._SY355_.jpg",
+        "price": 999
+      },
+      "id": 9
+    },
+    {
+      "product": {
+        "id": 4,
+        "name": "Superman Action Figure",
+        "description": "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a ",
+        "imageUrl": "https://images-eu.ssl-images-amazon.com/images/I/414ZdrXU71L._SY300_QL70_ML2_.jpg",
+        "price": 799
+      },
+      "id": 10
+    },
+    {
+      "product": {
+        "id": 4,
+        "name": "Superman Action Figure",
+        "description": "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a ",
+        "imageUrl": "https://images-eu.ssl-images-amazon.com/images/I/414ZdrXU71L._SY300_QL70_ML2_.jpg",
+        "price": 799
+      },
+      "id": 11
+    },
+    {
+      "product": {
+        "id": 4,
+        "name": "Superman Action Figure",
+        "description": "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a ",
+        "imageUrl": "https://images-eu.ssl-images-amazon.com/images/I/414ZdrXU71L._SY300_QL70_ML2_.jpg",
+        "price": 799
+      },
+      "id": 12
+    },
+    {
+      "product": {
+        "id": 5,
+        "name": "Wolverine Action Figure",
+        "description": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/61OULOGt5oL._SY550_.jpg",
+        "price": 899
+      },
+      "id": 13
+    },
+    {
+      "product": {
+        "id": 5,
+        "name": "Wolverine Action Figure",
+        "description": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/61OULOGt5oL._SY550_.jpg",
+        "price": 899
+      },
+      "id": 14
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "Batman Action Figure",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41ghpxFRVLL._SY355_.jpg",
+        "price": 999
+      },
+      "id": 15
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "Batman Action Figure",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41ghpxFRVLL._SY355_.jpg",
+        "price": 999
+      },
+      "id": 16
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Toy",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/5191g4lv0OL._SY355_.jpg",
+        "price": 199
+      },
+      "id": 17
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Toy",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/5191g4lv0OL._SY355_.jpg",
+        "price": 199
+      },
+      "id": 18
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Toy",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/5191g4lv0OL._SY355_.jpg",
+        "price": 199
+      },
+      "id": 19
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Toy",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/5191g4lv0OL._SY355_.jpg",
+        "price": 199
+      },
+      "id": 20
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Toy",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/5191g4lv0OL._SY355_.jpg",
+        "price": 199
+      },
+      "id": 21
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Toy",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/5191g4lv0OL._SY355_.jpg",
+        "price": 199
+      },
+      "id": 22
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Toy",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/5191g4lv0OL._SY355_.jpg",
+        "price": 199
+      },
+      "id": 23
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Toy",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/5191g4lv0OL._SY355_.jpg",
+        "price": 199
+      },
+      "id": 24
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Toy",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/5191g4lv0OL._SY355_.jpg",
+        "price": 199
+      },
+      "id": 25
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Toy",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/5191g4lv0OL._SY355_.jpg",
+        "price": 199
+      },
+      "id": 26
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Toy",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/5191g4lv0OL._SY355_.jpg",
+        "price": 199
+      },
+      "id": 27
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "Batman Action Figure",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41ghpxFRVLL._SY355_.jpg",
+        "price": 999
+      },
+      "id": 28
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "Batman Action Figure",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41ghpxFRVLL._SY355_.jpg",
+        "price": 999
+      },
+      "id": 29
+    },
+    {
+      "product": {
+        "id": 3,
+        "name": "Batman Action Figure",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/41ghpxFRVLL._SY355_.jpg",
+        "price": 999
+      },
+      "id": 30
+    },
+    {
+      "product": {
+        "id": 4,
+        "name": "Superman Action Figure",
+        "description": "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a ",
+        "imageUrl": "https://images-eu.ssl-images-amazon.com/images/I/414ZdrXU71L._SY300_QL70_ML2_.jpg",
+        "price": 799
+      },
+      "id": 31
+    },
+    {
+      "product": {
+        "id": 4,
+        "name": "Superman Action Figure",
+        "description": "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a ",
+        "imageUrl": "https://images-eu.ssl-images-amazon.com/images/I/414ZdrXU71L._SY300_QL70_ML2_.jpg",
+        "price": 799
+      },
+      "id": 32
+    },
+    {
+      "product": {
+        "id": 5,
+        "name": "Wolverine Action Figure",
+        "description": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/61OULOGt5oL._SY550_.jpg",
+        "price": 899
+      },
+      "id": 33
+    },
+    {
+      "product": {
+        "id": 5,
+        "name": "Wolverine Action Figure",
+        "description": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/61OULOGt5oL._SY550_.jpg",
+        "price": 899
+      },
+      "id": 34
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

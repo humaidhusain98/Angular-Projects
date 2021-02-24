@@ -1,0 +1,30 @@
+<!-- <button (click)="increment()">Increment</button>
+<button (click)="decrement()">Decrement</button> -->
+<!-- Form For Create User -->
+<!-- <form>
+  <label for="username">Username:</label><br>
+  <input  type="text" [(ngModel)]="em" id="username" name="username"><br>
+  <label for="pwd">Password:</label><br>
+  <input type="password" [(ngModel)]="pass" id="pwd" name="pwd">
+  <br>
+  <button (click)="onCreateButtonClick(em,pass)" type="submit">Create</button>
+</form> -->
+<!-- <form>-->
+  <!-- <label for="username">Username:</label><br>
+  <input  type="text" [(ngModel)]="em" id="username" name="username"><br>
+  <label for="pwd">Password:</label><br>
+  <input type="password" [(ngModel)]="pass" id="pwd" name="pwd">
+  <br>
+  <button (click)="onSignInButtonClick(em,pass)" type="submit">Log In</button>
+</form> --> 
+<h1>Base</h1>
+
+<div *ngIf="auth.user$ | async as user; else login">
+  {{user | json}}
+  <hr>
+  <button class="button" (click)="auth.signOut()">Sign Out</button>
+</div>
+
+<ng-template #login>
+  <button class="button" (click)="auth.googleSignin()">Login with Google</button>
+</ng-template> 

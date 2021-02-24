@@ -1,0 +1,39 @@
+
+<br>
+<br>
+<br>
+<br>
+<div class="container">
+<form class="form-signin">
+  <img class="mb-4" src="/docs/4.5/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+  <h1 class="h3 mb-3 font-weight-normal">Login Page<i class="fas fa-parking-circle-slash    "></i></h1>
+  <label for="inputEmail" class="sr-only">Email address</label>
+  <input [(ngModel)]="em" name="email" type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
+  <br>
+  <label for="inputPassword" class="sr-only">Password</label>
+  <input [(ngModel)]="pass" name="password" type="password"  id="inputPassword" class="form-control" placeholder="Password" required="">
+  <br>
+  <br>
+  <div class="row">
+    <div class="col-4">
+    <button (click)="signIn(em,pass)" class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+    </div>
+    <div class="col-4"></div>
+    <div class="col-4">
+        <button  (click)="createUser(em,pass)" class="btn btn-lg btn-primary btn-block" type="submit">Create</button>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col-8">
+      <button (click)="login()" class="btn btn-lg btn-primary btn-block" type="submit">Sign in with google</button>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col-12">
+      <button (click)="gotophone()" class="btn btn-lg btn-primary btn-block" type="submit">Sign in Using Phone</button>
+    </div>
+  </div>
+</form>
+</div>

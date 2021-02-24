@@ -1,0 +1,10 @@
+.contain {
+  background-color: rgb(11, 12, 11);
+}
+
+.text {
+  color: whitesmoke;
+}
+.text:hover {
+  color: grey;
+}

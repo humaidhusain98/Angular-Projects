@@ -1,0 +1,93 @@
+<div style="min-width: 1920px;min-height: 1080px; background-image: url('https://wallpaperplay.com/walls/full/e/5/3/181223.jpg');">
+
+
+
+
+
+<div id="title"> <h2>{{title}}</h2></div>
+
+
+<div class="container h-100">
+  <div class="d-flex justify-content-center h-100">
+    <div class="searchbar">
+      <input class="search_input" type="text" (change)="getSearch()" [(ngModel)]="search" name="search" placeholder="Filter">
+      <button class="search_icon">search<i class="fas fa-search"></i></button>
+    </div>
+  </div>
+</div>
+
+
+  
+<table class="table table-dark">
+    <tr>
+      <th *ngFor="let column of headers">
+        {{column}}
+      </th>
+
+      <th>
+        Address 
+      </th>
+    
+      <th>
+        City
+      </th>
+
+     
+    </tr>
+
+    <tr *ngFor="let row of data;let i =index" [attr.data-index]="i">
+      
+      <td *ngFor="let column of headers">
+
+        {{row[column]}}
+
+      </td>
+      <td>
+        {{row["address"].addrLine1}} ,&emsp; {{row["address"].addrLine2}}
+        
+      </td>
+      <td>
+        {{row["address"].city}} 
+      
+        
+      </td>
+      <td>
+      <button type="button" (click)="getMedDepart(i)" class="btn btn-dark">Departments List</button>
+        <div *ngIf="show[i]">
+          <div *ngFor="let d of row.departrments">
+            <button type="button" class="btn btn-dark">{{d.name}}</button>
+            </div>
+              
+            
+        </div>
+      
+       </td> 
+
+       <td>
+        <button type="button" (click)="getMedDocs(i)" class="btn btn-dark">Doctors List</button>
+          <div *ngIf="showdoc[i]">
+            <div *ngFor="let e of row.doctors">
+              <button type="button" class="btn btn-dark">{{e.name}}</button>
+              </div>
+          </div>
+        
+         </td> 
+    </tr>
+      
+    
+    
+
+
+      
+     
+     
+    
+
+ 
+
+  </table>
+<br>
+<br>
+
+
+  </div>

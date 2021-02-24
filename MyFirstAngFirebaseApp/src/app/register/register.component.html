@@ -1,0 +1,10 @@
+<form>
+    <label for="username">Username:</label><br>
+    <input  type="text" [(ngModel)]="em" id="username" name="username"><br>
+    <label for="pwd">Password:</label><br>
+    <input type="password" [(ngModel)]="pass" id="pwd" name="pwd">
+    <br>
+    <button (click)="onCreateButtonClick(em,pass)" type="submit">Create</button>
+</form>
+
+<button (click)=gotolog()>Go to Login Page</button>
