@@ -5,12 +5,12 @@
 export const environment = {
   production: false,
   firebase: {
-    apiKey: "AIzaSyC2UDfQ3PBnrMbXoY9vCIx1O7ukF_xm5kg",
-    authDomain: "hasura-demo-app-b6f1b.firebaseapp.com",
-    databaseURL: "https://hasura-demo-app-b6f1b.firebaseio.com",
-    projectId: "hasura-demo-app-b6f1b",
-    storageBucket: "hasura-demo-app-b6f1b.appspot.com",
-    messagingSenderId: "355406295286",
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
   
   },
 

@@ -5,11 +5,11 @@
 export const environment = {
   production: false,
   firebase :{
-    apiKey: "AIzaSyDIRS223zDkYywhxCg5LVF4WTDwlhnboxY",
-    authDomain: "testauth-5eaec.firebaseapp.com",
-    projectId: "testauth-5eaec",
-    storageBucket: "testauth-5eaec.appspot.com",
-    messagingSenderId: "1010119352993",
+    apiKey: "",
+    authDomain: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
   }
 };
 
