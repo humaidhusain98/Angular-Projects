@@ -1,0 +1,8 @@
+<div id="button-div">
+    <button mat-button (click)="click()"><img src="assets/iconHor.svg" /></button>
+</div>
+
+<div id="cards-container"  *ngIf="show==true">
+<mat-card (click)="openQR()" id="cards" >Qr Code</mat-card>
+<mat-card (click)="click()" id="cards" >Delete Account</mat-card>
+</div>

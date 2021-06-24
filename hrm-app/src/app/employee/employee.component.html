@@ -1,0 +1,140 @@
+<div id ="show-large">
+<div id="container">
+<div id="buttons">
+    <h1 id="heading">Employees</h1>
+    <div id="create">
+      <button mat-raised-button (click)="openDialog()">Create Employee</button>
+    </div>
+    <div id="searchBar">
+        <input type="text" id="search"/>
+        <button mat-raised-button (click)="this.printData()">Search</button>
+    </div>
+    <div id="navigation">
+        <button mat-button><mat-icon>arrow_back_ios</mat-icon></button>
+        <button mat-button><mat-icon>arrow_forward_ios</mat-icon></button>  
+    </div>
+    
+   
+</div>
+<mat-grid-list cols="3" rowHeight="2:1">
+    <mat-grid-tile *ngFor="let user of users">
+    <mat-card class="example-card" >
+      <div class="row">
+        <div class="column">
+          <img mat-card-lg-image [src]="user.imageUrl">
+        </div>
+      
+        <div class="column">
+          <div id="option">
+            <app-dropdown ></app-dropdown>
+          </div>
+          <h2>{{user.first_name}} {{user.last_name}}</h2>
+          <p>{{user.designation}}</p>
+          <p>{{user.email}}</p>
+          <p>{{user.mobile}}</p>
+        </div>
+  
+          
+
+       
+      </div>
+    </mat-card>
+    </mat-grid-tile>
+</mat-grid-list>
+</div>
+</div>
+
+
+<div id ="show-medium">
+  <div id="container">
+  <div id="buttons">
+      <h1 id="heading">Employees</h1>
+      <div id="create">
+        <button mat-raised-button (click)="openDialog()">Create</button>
+      </div>
+      <div id="searchBar">
+          <input type="text" id="search"/>
+          <button mat-raised-button (click)="this.printData()">Search</button>
+      </div>
+      <div id="navigation">
+          <button mat-button><mat-icon>arrow_back_ios</mat-icon></button>
+          <button mat-button><mat-icon>arrow_forward_ios</mat-icon></button>  
+      </div>
+      
+     
+  </div>
+  <mat-grid-list cols="2">
+      <mat-grid-tile *ngFor="let user of users">
+      <mat-card class="example-card" >
+        <div class="row">
+          <div class="column">
+            <img mat-card-md-image [src]="user.imageUrl">
+          </div>
+          
+          <div class="column">
+            <div id="option">
+              <app-dropdown ></app-dropdown>
+            </div>
+            <h2>{{user.first_name}} {{user.last_name}}</h2>
+            <p>{{user.designation}}</p>
+            <p>{{user.email}}</p>
+            <p>{{user.mobile}}</p>
+          </div>
+        </div>
+      </mat-card>
+      </mat-grid-tile>
+  </mat-grid-list>
+  </div>
+  </div>
+
+
+
+  <div id ="show-mobile">
+    <div id="top-container">
+      <div id="empl">
+      <h1 >Employees</h1>
+      <button mat-raised-button (click)="openDialog()">Create</button>
+      </div>
+
+      <input type="text" id="search"/>
+      <button mat-raised-button (click)="this.printData()">Search</button>
+    
+    </div>
+
+  
+      <button mat-button><mat-icon>arrow_back_ios</mat-icon></button>
+      <button mat-button><mat-icon>arrow_forward_ios</mat-icon></button>  
+
+
+    <div id="container">
+      
+   
+
+      
+    <mat-grid-list cols="1" >
+        <mat-grid-tile *ngFor="let user of users">
+        <mat-card class="example-card" >
+          <div class="row">
+            <div class="column">
+              <img mat-card-md-image [src]="user.imageUrl">
+            </div>
+
+         
+            
+            <div class="column">
+              <div id="option">
+                <app-dropdown ></app-dropdown>
+              </div>
+              <h2>{{user.first_name}} {{user.last_name}}</h2>
+              <p>{{user.designation}}</p>
+              <p>{{user.email}}</p>
+              <p>{{user.mobile}}</p>
+            </div>
+          </div>
+        </mat-card>
+        </mat-grid-tile>
+    </mat-grid-list>
+    </div>
+    </div>
+
+

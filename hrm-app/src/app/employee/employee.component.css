@@ -1,0 +1,207 @@
+#show-medium {
+    display : none;
+}
+#show-mobile {
+    display : none;
+}
+
+#container {
+    color :black;
+
+    margin-top : 85px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding : 40px;
+    padding-top: 10px;
+}
+
+
+.mat-grid-list {
+    margin: auto;
+}
+
+.mat-grid-tile {
+    background-color: white;
+    margin : 15px;
+    transition-duration: 0.5s;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mat-grid-tile:hover {
+    background-color: #F8F8F8;
+    margin : 15px;
+    
+    
+   
+}
+
+#option {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#heading {
+    font-size: 2.3rem;
+}
+
+#buttons {
+    display: flex;
+    
+}
+
+
+#searchBar {
+    position : fixed;
+    right: 35%;
+}
+
+#search {
+    min-width: 100px;
+    width : 250px;
+    height : 30px;
+    margin: 10px;
+
+    border: solid 2px black;
+    border-radius: 4px;
+    
+    
+}
+
+#navigation {
+    position : fixed;
+    right : 10%;
+
+}
+
+.mat-icon {
+    cursor: pointer;
+}
+
+
+
+
+.example-card {
+    
+    background-color: white;
+    color : black;
+    max-width : 600px;
+    min-width: 100px;
+    max-height :400px;
+    height : 200px;
+    min-height: 50px;
+    width : 500px;
+    margin : 10px;
+    display: inline-block;
+
+  }
+
+.column {
+    float: left;
+    width: 50%;
+}
+  
+#create {
+    margin-left:10px;
+}
+ 
+@media only screen and (min-width: 750px ) and (max-width : 1250px){
+   
+    
+
+
+    #show-large {
+        display: none;
+    }
+
+    #show-medium {
+        display: block;
+    }
+
+
+    #searchBar {
+        position : fixed;
+        right: 20%;
+    }
+
+    #search {
+        width : 100px;
+    }
+
+    #navigation {
+        position : fixed;
+        right : 2%;
+    
+    }
+
+    .example-card {
+        height: 315px;
+    }
+
+
+    
+}
+
+
+@media only screen and (max-width: 750px)
+{
+    #show-large {
+        display: none;
+    }
+
+    #show-medium {
+        display: none;
+    }
+
+    #show-mobile {
+        display :block;
+    }
+    #container {
+        color :black;
+    
+        margin-top : 60px;
+        margin-left: 5px;
+        margin-right: 10px;
+        padding : 5px;
+        padding-top: 10px;
+    }
+
+    #top-container {
+        
+        margin-top : 80px;
+    }
+
+    #empl {
+        margin: 5px;
+        display: flex;
+        justify-content: space-around;
+    }
+   
+   
+      #searchBar {
+       margin: 5px;
+       position : fixed;
+      }
+
+    #search {
+        width :150px;
+    }
+
+    .example-card {
+        margin: 5px;
+
+    }
+
+    .mat-grid-tile{
+        padding: 5px;
+    }
+
+
+
+     
+}
+
+
+
+/* Clear floats after the columns */
+ 

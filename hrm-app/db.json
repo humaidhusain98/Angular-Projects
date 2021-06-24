@@ -1,0 +1,24 @@
+{
+  "user": [
+    {
+      "first_name": "Humaid",
+      "last_name": "Husain",
+      "email": "humaidhusain98@gmail.com",
+      "mobile": "8420617036",
+      "designation": "Tech Lead",
+      "imageUrl": "https://media-exp1.licdn.com/dms/image/C5103AQHNkC22ZO7QwA/profile-displayphoto-shrink_200_200/0/1551116230972?e=1623888000&v=beta&t=VWRsBUZvsvXLUivkU7oXWjemWjXZ2d1uFcGaHAbuLbk",
+      "role": "1",
+      "id": 1
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

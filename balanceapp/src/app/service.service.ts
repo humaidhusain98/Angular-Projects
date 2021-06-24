@@ -10,7 +10,7 @@ import { Transactions } from './transactions';
 export class ServiceService {
 
   constructor(private http:HttpClient) { }
-
+  //http://13.127.176.63:8080/transactions
   getAllTransaction(){
      return this.http.get('http://13.127.176.63:8080/transactions');
   }
@@ -25,7 +25,7 @@ export class ServiceService {
 
   deleteTransaction(id:number){
    
-    return this.http.delete('http://13.127.176.63:8080/transactions/'+id).pipe(catchError(this.handleError));
+    return this.http.delete('http://13.127.176.63:8080/transactions/'+id);
     
   }
 
@@ -52,6 +52,15 @@ export class ServiceService {
   getBalance(){
     return this.http.get('http://13.127.176.63:8080/balance/1');
   }
+
+  getPassword(){
+    return this.http.get('http://13.127.176.63:8080/password1234567890');
+  }
+
+  setPassword(password){
+    return this.http.post('http://13.127.176.63:8080/password1234567890?pass='+password,{});
+  }
+
 
 
 }

@@ -1,0 +1,28 @@
+<div id="container">
+<div>
+<mat-card class="my-card">
+
+  <mat-card-title>Login</mat-card-title>
+  <mat-card-content>
+    <form [formGroup]="form">
+      <div class="formGroup">
+        <mat-form-field class="full-width">
+           <mat-label>Username</mat-label>
+           <input  matInput  placeholder="Email" name="email" formControlName="username">
+        </mat-form-field>
+      </div>
+
+      <div class="formGroup">
+        <mat-form-field class="full-width">
+           <mat-label>Password</mat-label>
+           <input type="password"  matInput  placeholder="Password" formControlName="password">
+        </mat-form-field>
+        </div>
+     </form>
+  </mat-card-content>
+  <mat-card-actions>
+     <button mat-raised-button id="login-button" (click)="login()" [disabled]="!form.valid" color="secondary">LOGIN</button>
+  </mat-card-actions>
+</mat-card>
+</div>
+</div>

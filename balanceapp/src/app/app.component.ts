@@ -18,6 +18,10 @@ export class AppComponent implements OnInit{
   authenticated:boolean;
   password:String;
   transactionslist:Transactions[];
+  oldPassword:String;
+  newPassword:String;
+  renewPassword:String;
+  removePassword:String;
   constructor(private service:ServiceService){
     this.authenticated=false;
     this.setBalance();
@@ -45,9 +49,9 @@ export class AppComponent implements OnInit{
    
   }//add Transaction
 
-  removeTransaction(){
+  removeTransaction(id){
 
-         this.service.deleteTransaction(this.removeId).subscribe(()=>{
+         this.service.deleteTransaction(id).subscribe(()=>{
           this.setBalance();
             },(error)=>{
               console.log('Maybe Id Doesnt Exist!! error message=>'+error);
@@ -89,10 +93,55 @@ export class AppComponent implements OnInit{
   }
 
   authenticate(){
-    if(this.password=='password12345')
-      {
+    this.service.getPassword().subscribe((pass)=>{
+      if(this.password==pass['pass'])
         this.authenticated=true;
+    });
+  }
+
+
+  changePassword()
+  {
+    this.service.getPassword().subscribe((pass)=>{
+      if(this.oldPassword==pass['pass'])
+      {
+        this.service.setPassword(this.newPassword).subscribe((res)=>{
+          console.log("Password Successfully Changed");
+          alert("Password Successfully Changed");
+        });
       }
+      else
+      {
+        alert("Incorrect Password Entered");
+        console.log("Incorrect Password");
+      }
+      this.oldPassword=null;
+      this.newPassword=null;
+      this.renewPassword=null;
+    })
+  }
+
+  removeItemAuth(id)
+  { 
+    this.service.getPassword().subscribe((pass)=>{
+      if(this.removePassword==pass['pass'])
+      {
+        this.removeTransaction(id);
+      }
+      else
+      {
+        alert("Incorrect Password Entered!");
+      }
+      this.removePassword=null;
+      
+    })
+
+  }
+
+
+  setRemoveId(id)
+  {
+    this.removeId=id;
   }
 
 }

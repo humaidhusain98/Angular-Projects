@@ -1,0 +1,111 @@
+/* .mat-toolbar
+{
+    background-color: aliceblue;
+    color : grey;
+} */
+
+#navbar
+{
+    position : fixed;
+    background-color: black;
+    margin-top : 0px;
+    color : white;
+    top : 0;
+    left : 0;
+    right : 0; 
+    height : 60px;
+    display : flex;
+    justify-content : flex-start;
+    align-items : center;
+    z-index : 3;
+
+
+}
+
+#logo-wrap{
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+#logo-wrap img
+{
+    
+        height : 40px;
+        width : 40px;
+        border-radius : 4px;
+        
+   
+}
+
+#employees {
+    padding-left: 1%;
+    font-size: 1.8em;
+}
+
+#container {
+    padding-left: 2%;
+    display: flex;
+    max-width : 600px;
+    width : 550px;
+    min-width: 300px;
+    justify-content: space-around;
+
+   
+}
+
+#container span {
+     color: rgb(249, 249, 249);
+      font-size: 13px;
+      letter-spacing: 1.42px;
+      line-height: 1.08;
+      padding: 2px 0px;
+      white-space: nowrap;
+      position: relative;
+      cursor: pointer;
+}
+
+#container span:hover{
+    color: grey;
+}
+
+#logout {
+    background-color : rgb(0,0,0.6);
+    padding : 8px 16px;
+    text-transform : uppercase;
+    letter-spacing :1.5px;
+    border : 1px solid #f9f9f9;
+    border-radius : 4px;
+    transition : all .2s ease 0s;
+    position: fixed;
+    right : 25px;
+}
+
+#logout:hover {
+
+    background-color: #f9f9f9;
+    color : #000;
+    border-color : transparent;
+}
+
+
+
+@media (max-width : 768px) {
+    #container {
+       
+        position : fixed;
+        top : 60px;
+        left : 0;
+        background-color : black;
+        color :white;
+        padding : 5px;
+        border : solid 2px #fff;
+        border-radius: 5px;
+        visibility : visible;
+        opacity : 1;
+        display : none;
+    }
+
+   
+
+   
+}

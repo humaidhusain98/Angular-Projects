@@ -1,0 +1,36 @@
+::ng-deep #cards {
+  background-color: white;
+  color: black;
+
+  
+}
+
+::ng-deep #cards:hover {
+    background-color: #F8F8F8;
+    color: black;
+    
+  }
+  
+#cards-container {
+    height:250px;
+    width: 250px; 
+    overflow-x: scroll;
+
+
+}
+
+
+
+#cards-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+#cards:active {
+    background-color: grey;
+}
+
+
+#button-div {
+  display: flex;
+  justify-content: flex-end;
+}

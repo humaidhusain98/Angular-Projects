@@ -11,8 +11,13 @@
         <div class="col-2">
             
         </div>
+       
     </div>
 </div>
+
+
+
+
 
 <div *ngIf="!authenticated">
     <br>
@@ -28,8 +33,12 @@
     <div class="col-2">
      <button type="button" (click)="authenticate()" class="btn btn-dark btn-block">Login</button>
      </div>
+     <div class="col-4">
+        <button type="button" class="btn btn-dark" (click)="setDefaultVal()" data-toggle="modal" data-target="#changePassword" >Change Password</button>
+     </div>
     </div>
     <div class="col-2">
+        
     </div>
 
 </div>
@@ -38,7 +47,7 @@
 
 
 <div *ngIf="authenticated">
-
+   
 
 <div class="row">
     <div class="col-4">
@@ -87,6 +96,7 @@
                 Date: {{transact.date | date }},
                 Time: {{transact.date | date:'shortTime' }}
                 <div>Comment : {{transact.description}}</div>
+                <button type="button" (click)="setRemoveId(transact.id)"  class="btn btn-danger" data-toggle="modal" data-target="#removeTransaction">Remove</button>
             </div>
           </div>
     </div>
@@ -151,3 +161,94 @@
   </div>
 
 </div>
+
+
+<div class="modal fade" id="changePassword" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Enter Transaction Details</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+           <form #changePassForm="ngForm">
+            <div class="form-group">
+                <div class="row">
+                   <div class="col-2">
+                       <strong>Current Password:</strong>
+                   </div>
+                   <div class="col-10">
+                       <input type="password" id="oldPassword" required class="form-control" [(ngModel)]="oldPassword" name="oldPassword">
+                   </div>
+               </div>   
+               </div> 
+
+               <div class="form-group">
+                <div class="row">
+                   <div class="col-2">
+                       <strong>New Password:</strong>
+                   </div>
+                   <div class="col-10">
+                       <input type="password" id="newpassword" required class="form-control" [(ngModel)]="newPassword" name="newpassword">
+                   </div>
+               </div>   
+               </div> 
+
+               <div class="form-group">
+                <div class="row">
+                   <div class="col-2">
+                       <strong>Reconfirm New Password:</strong>
+                   </div>
+                   <div class="col-10">
+                       <input type="password" id="renewpassword" required class="form-control" [(ngModel)]="renewPassword" name="renewpassword">
+                   </div>
+               </div>   
+               </div> 
+               <div class="col-6">
+                <button type="button" (click)="changePassword()" [disabled]="!changePassForm.valid || newPassword!=renewPassword"  data-dismiss="modal" class="btn btn-dark btn-block">Change Password </button>
+                </div>
+
+            </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="modal fade" id="removeTransaction" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Enter Password to Remove</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+           <form #removeTransact="ngForm">
+            <div class="form-group">
+                <div class="row">
+                   <div class="col-2">
+                       <strong>Enter Password:</strong>
+                   </div>
+                   <div class="col-10">
+                       <input type="password" id="removePassword" required class="form-control" [(ngModel)]="removePassword" name="removePassword">
+                   </div>
+               </div>   
+               </div> 
+
+               <div class="col-6">
+                <button type="button" (click)="removeItemAuth(this.removeId)" [disabled]="!removeTransact.valid"  data-dismiss="modal" class="btn btn-dark btn-block">Remove Item </button>
+                </div>
+
+            </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
